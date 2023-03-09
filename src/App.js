@@ -24,12 +24,7 @@ const App = () => {
         title=""
         author=""
       />
-      <YoutubeItem
-        image="https://images.unsplash.com/photo-1678225758637-c176c3885aac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=900&q=60"
-        avatar="https://images.unsplash.com/photo-1480429370139-e0132c086e2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
-        title=""
-        author=""
-      /> */}
+       */}
     </div>
   );
 };
