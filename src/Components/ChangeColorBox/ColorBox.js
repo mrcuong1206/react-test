@@ -3,29 +3,29 @@ import "./ChangeColor.css";
 
 const ColorBox = () => {
   const [color, setColor] = useState(() => {
-    const initColor = localStorage.getItem("box-color") || "red";
+    const initColor = localStorage.getItem("color-box") || "red";
     console.log(initColor);
     return initColor;
   });
 
-  const randomColor = () => {
-    const COLOR_LIST = ["red", "orange", "black", "yellow", "green"];
+  const randomColorBox = () => {
+    const COLOR_LIST = ["red", "orange", "green", "yellow", "black"];
     const randomIndex = Math.trunc(Math.random() * 5);
     return COLOR_LIST[randomIndex];
   };
 
-  const handlClickBox = () => {
-    const newColor = randomColor();
+  const handleClickBox = () => {
+    const newColor = randomColorBox();
     setColor(newColor);
 
-    localStorage.setItem("box-color", newColor);
+    localStorage.setItem("color-box", newColor);
   };
 
   return (
     <div
-      className="color-box"
+      className="box-color"
       style={{ backgroundColor: color }}
-      onClick={handlClickBox}
+      onClick={handleClickBox}
     ></div>
   );
 };
