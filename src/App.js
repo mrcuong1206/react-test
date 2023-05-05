@@ -1,11 +1,13 @@
-import React from "react";
+import { React } from "react";
 import "./App.css";
 // import YoutubeList from "./Components/Youtube/YoutubeList";
-import ColorBox from "./Components/ChangeColorBox/ColorBox.js";
-import Counter from "./Components/Count/Counter";
-import CounterUseRef from "./Components/CountUseRef/CounterUseRef";
-import Reducer from "./Components/Reducer/Reducer";
+// import ColorBox from "./Components/ChangeColorBox/ColorBox.js";
+// import Counter from "./Components/Count/Counter";
+// import CounterUseRef from "./Components/CountUseRef/CounterUseRef";
+// import Reducer from "./Components/Reducer/Reducer";
 import NewReducer from "./Components/Reducer/NewReducer";
+import Context from "./Components/context/Context";
+
 const App = () => {
   // const name = "ReyC";
 
@@ -18,6 +20,7 @@ const App = () => {
       <CounterUseRef />
       <Reducer /> */}
       <NewReducer />
+      <Context />
     </div>
   );
 };

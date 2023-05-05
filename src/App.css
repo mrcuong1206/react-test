@@ -6,3 +6,8 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.dark {
+  color: white;
+  background-color: #000;
+}
